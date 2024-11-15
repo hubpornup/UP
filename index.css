@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+@font-face{font-family:'dillen';
+    src:url('fonts/Dillen.ttf') format('truetype'),
+}
+
+body{
+    font-family: Dillen;
+}
+
+.head{
+    background-color: #111111;
+    height: 80px;
+    width: 100%;
+}
+.one-header{
+    background-color: #111111;
+    height: 100%;
+    width: auto;
+    margin: 0px auto;
+    box-shadow: #050505 0px 5px 5px;
+    
+}
+.log{
+    display: table;
+    float: left;
+    height: 100%;
+    margin-left: 20px;
+}
+.log h1{    
+    display: table-cell;
+    vertical-align: middle;
+    color: #ff9900;
+    height: 100%;    
+}
+.nav{
+    float: right;
+    height: 100%;  
+    margin-right: 20px;  
+}
+.nav li{
+    display: table;
+    height: 100%;
+    float: left;
+    padding: 0px 10px;
+    list-style: none;
+}
+.nav a{
+    display: table-cell;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+.cover-box{
+    width: 300px;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+.box-back{
+    text-align: center;
+    margin: 20px;
+}
+
+.end-site{
+    background-color: #000000;
+    width: auto;
+    height: 200px;
+    box-shadow: #000000 15px 0px 5px;
+
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+
+.title-end{
+    color: #ff9900;
+    line-height: 50px;
+    font-size: 40px;
+}
+.txt-end{
+    color: #444444;
+    line-height: 30px;
+    font-size: 15px
+}
