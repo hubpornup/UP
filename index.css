@@ -80,3 +80,33 @@ body{
     line-height: 30px;
     font-size: 15px
 }
+
+
+
+.box-warning{
+    box-shadow: #000000 0px 2px 2px;
+    background-color: #130a0a;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    color: #ffd8d8;
+    padding-top: 5px;
+}
+
+.box-warning-2{
+    box-shadow: #000000 0px 2px 2px;
+    background-color: #13130a;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    color: #faffd8;
+    padding-top: 5px;
+
+}
