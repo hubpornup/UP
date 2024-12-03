@@ -3,60 +3,49 @@
     padding: 0px;
 }
 
-
 @font-face{font-family:'dillen';
-    src:url('fonts/Dillen.ttf') format('truetype'),
+    src:url('font/Dillen.ttf') format('truetype'),
 }
 
 body{
     font-family: Dillen;
 }
 
+
+
 .head{
-    background-color: #111111;
+    background-color: #0a0f13;
     height: 80px;
     width: 100%;
+    box-shadow: #07090a 0px 5px 10px;
+
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
 }
+
+
 .one-header{
-    background-color: #111111;
-    height: 100%;
-    width: auto;
-    margin: 0px auto;
-    box-shadow: #050505 0px 5px 5px;
-    
+    background-color: #0a0f13;
+    height: 100%;      
+    text-align: center;
 }
+
+
 .log{
-    display: table;
-    float: left;
     height: 100%;
-    margin-left: 20px;
-}
-.log h1{    
-    display: table-cell;
-    vertical-align: middle;
-    color: #ff9900;
-    height: 100%;    
-}
-.nav{
-    float: right;
-    height: 100%;  
-    margin-right: 20px;  
-}
-.nav li{
-    display: table;
-    height: 100%;
-    float: left;
-    padding: 0px 10px;
-    list-style: none;
-}
-.nav a{
-    display: table-cell;
-    vertical-align: middle;
-    text-decoration: none;
     color: #ffffff;
+    padding-top: 10px;
 }
 
-
+.nothing{
+    width: 100px;
+    height: 100px;
+}
 
 .cover-box{
     width: 300px;
@@ -70,8 +59,17 @@ body{
     margin: 20px;
 }
 
+
+
+
+
+
+
+
+
+
 .end-site{
-    background-color: #000000;
+    background-color: #07090a;
     width: auto;
     height: 200px;
     box-shadow: #000000 15px 0px 5px;
@@ -82,7 +80,7 @@ body{
 
 
 .title-end{
-    color: #ff9900;
+    color: #d1cdff;
     line-height: 50px;
     font-size: 40px;
 }
